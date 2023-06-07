@@ -1,5 +1,5 @@
 function selectRandomColor() {
-  var colors = ["pink", "orange", "green", "purple", "blue", "white", "yellow", "red", "brown"];
+  var colors = ["pink", "orange", "green", "purple", "blue", "yellow", "red", "brown"];
   var nameInput = document.getElementById("nameInput");
   var resultDiv = document.getElementById("result");
 
