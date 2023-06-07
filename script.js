@@ -10,5 +10,5 @@ function selectRandomColor() {
   }
 
   var selectedColor = colors[Math.floor(Math.random() * colors.length)];
-  resultDiv.innerHTML = "<p><strong>" + name + "</strong> got the color <span style='color: " + selectedColor + ";'>" + selectedColor + "</span>.</p>";
+  resultDiv.innerHTML = "<p><strong>" + name + "</strong> got the color <span style='color: " + selectedColor + ";'>" + selectedColor + "</span></p>";
 }
